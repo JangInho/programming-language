@@ -31,6 +31,7 @@ s | t | u | v | w | x | y | z
 - 아무것도 입력되지 않은 경우에는 프로그램 수행을 종료함
 
 ▸ 실행예
+```
 >> x = ( 12 + 3 ;
 >> Syntax Error!
 >> x = 10 + 5 / 2 ;
@@ -53,6 +54,7 @@ s | t | u | v | w | x | y | z
 >> 45 -19
 >> y = 10 * 5 - 3 ; xyz = 5 - 2 + - 8 - 2 ; print y ; print xyz ;
 >> 20 -7
+```
 
 **2번**
 다음의 EBNF로 문법이 정의되는 언어를 위한 해석기를(Recursive-Descent Parser
@@ -92,6 +94,7 @@ s | t | u | v | w | x | y | z
 - 아무것도 입력되지 않은 경우에는 프로그램 수행을 종료함
 
 ▸ 실행예
+```
 >> integer variable ; variable = 365 ;
 >> a = 10 ;
 >> Syntax Error!
@@ -120,3 +123,4 @@ else { x = 7 ; print x + 5 ; } ;
 >> integer i ; integer j ; integer k ; i = 0 ; j = 5 ; k = 3 ; while ( i < j ) do { if ( i <
 k ) { i = i + 1 ; print i ; } else { i = i + 1 ; } ; } ; print i ; print j * k ;
 >> 1 2 3 5 15
+```
